@@ -26,7 +26,7 @@ docker run -p 8000:8000 --env-file .env loan-ai-bot
 ### 3. Локальний запуск
 pip install -r requirements.txt
 uvicorn main:app --reload
-### 4. Про модель XGBoost
+## Про модель XGBoost
 Модель була попередньо навчена (Pre-trained) на датасеті кредитних історій. 
 Вона враховує 4 ключові фактори: вік, дохід, суму кредиту та кредитний рейтинг. 
 
